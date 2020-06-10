@@ -1,0 +1,384 @@
+
+._image{
+    object-fit: fill;    
+    border-radius: 50%;
+    margin: 0 auto;    
+}
+
+._image2{
+    object-fit: fill;    
+    margin: 0 auto;
+    border-radius: 25%;
+}
+
+._image_big{
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+}
+
+._image_medium{
+    width: 180px;
+    height: 180px;
+    margin: 10px auto;
+}
+
+
+._instagram{
+    background-image: url(../images/instagram.png);    
+    width: 50px;
+    height: 36px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+._facebook{
+    background-image: url(../images/facebook.png);
+    width: 50px;
+    height: 36px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+._icon_small{    
+    width: 28px;
+    height: 20px;    
+}
+
+._twitter{
+    background-image: url(../images/twitter.png);
+    width: 50px;
+    height: 36px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+
+/* L */
+@media only screen and (min-width: 991.99px) and (max-width: 2000px){
+    ._guia{
+        background-color: yellow;
+    }    
+
+    ._image_big{
+        width: 250px;
+        height: 250px;
+        margin: 10px auto;
+    }
+
+    ._image_medium{
+        width: 180px;
+        height: 180px;
+        margin: 10px auto;
+    }
+}
+
+/* M */
+@media only screen and (min-width: 600px) and (max-width: 991.98px) {
+    ._guia {
+        background-color: blue;
+    }
+    
+    ._image_big{
+        width: 200px;
+        height: 200px;
+        margin: 10px auto;
+    }
+
+    ._image_medium{
+        width: 150px;
+        height: 150px;
+        margin: 10px auto;
+    }
+} 
+
+
+/* XS */
+@media only screen and (max-width: 599.98px) {
+    ._guia {
+        background-color: red;
+    }
+
+    ._image_big{
+        width: 150px;
+        height: 150px;
+        margin: 5px auto;
+    }
+
+    ._image_medium{
+        width: 120px;
+        height: 120px;
+        margin: 10px auto;
+    }
+}
+
+
+._page {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-width: 264px;
+}
+
+._container {
+    background-color: white;
+    width: 94%;
+    height: auto; 
+    margin: 5px auto;
+}
+
+._card{    
+    margin: 5%;
+    padding: 10%;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    min-width: 230px;
+    max-height: 480px;
+    min-height: 480px;
+}
+
+._head{
+    margin: 1%;
+    padding: 5%;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: wrap;
+    min-width: 230px;
+}
+
+._categories{    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: wrap;
+    min-width: 230px;
+}
+
+._line{
+    margin: 1%;
+    width: 100%;
+    height: 7px;
+    background-color: rgb(78, 78, 138);
+}
+
+._near_1{
+    box-shadow: 0px 0px 15px 0px rgb(69, 121, 69); 
+}
+
+._near_2{
+    box-shadow: 0px 0px 15px 0px rgb(190, 125, 39); 
+}
+
+._near_3{
+    box-shadow: 0px 0px 15px 0px rgb(155, 31, 31); 
+}
+
+._img_1{    
+    object-fit: fill;
+    width: 170px;
+    height: 170px;
+}
+
+
+._card_title{
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+._card_body{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+._card_body > div > p {
+    font-size: small;
+}
+
+hr{
+    margin: 2px;
+}
+
+._card_footer{
+    background-color: thistle;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+    max-height: 20px;
+}
+
+._card_icon_green{
+    color: rgb(0,191,165);
+}
+
+._card_icon_blue{
+    color: rgb(49, 49, 78);
+}
+
+._pointer{
+    cursor: pointer;
+}
+
+mat-slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+._banner_1{
+    background-color: #2980b9;
+    width: 100%;
+    color: white;
+    text-align: center;
+    min-height: 300px;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+._category{
+    width: 100%;
+    padding: 5%;   
+    color: white; 
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+._category:hover{
+    box-shadow: 0px 0px 15px 0px rgba(236, 240, 241,.8);
+}
+
+._categories-mini{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+._category-mini{
+    margin: 1px;
+    box-shadow: 2px 1px 3px 0px rgba(118, 120, 121, 0.8);
+    border-radius: 3px;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+
+
+._turquoise{
+    background-color: #16a085;    
+}
+
+._alizarin{
+    background-color: #e74c3c;    
+}
+._orange{
+    background-color: #f39c12;    
+}
+._asphalt{
+    background-color: #34495e;    
+}
+._concrete{
+    background-color: #95a5a6;    
+}
+._nephritis{
+    background-color: #27ae60;    
+}
+._wisteria{
+    background-color: #8e44ad;    
+}
+
+._river{
+   background-color: #3498db;
+}
+
+._silver{
+    background-color: #bdc3c7;
+}
+
+.pumpkin{
+    background-color: #d35400;
+}
+            
+    
+._com_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    
+._sub_head_1{            
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+._flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+._flex_normal{
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+._flex_even{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+._head_1{
+    min-height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+}
+
+._body_1{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-right: 0px;
+}
+
+._more{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+._theme_screen{
+    width: 250px;
+}
